@@ -1,0 +1,10 @@
+# Encryption configuration
+encryption:
+  key: MyAesKey12345678  # Exactly 16 bytes (128 bits)
+encrypted:
+  file:
+    path: simple.txt.enc
+
+# Other application properties
+server:
+  port: 8080
